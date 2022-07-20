@@ -1,0 +1,20 @@
+`timescale 1ns/1ps
+module counter_up_down_tb();
+reg clk,rst,up_down;
+wire[3:0] count_out;
+counter_up_down dut(clk,rst,up_down,count_out);
+initial
+begin 
+clk = 0;
+forever #5 clk = ~clk;
+end
+initial
+begin
+rst = 1;
+up_down = 0;
+#20;
+rst = 0;
+#200;
+up_down = 1;
+end
+endmodule
