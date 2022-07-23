@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/ModelSim/StopWatch
+vFSM_011
+!s110 1658611589
+!i10b 1
+!s100 R7KDJAj:J=YT?TV0KE]1o3
+I]23Tj<k1N4a`Ic>[ZXW533
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/ModelSim/FSM_011
+w1658611585
+8D:/ModelSim/FSM_011/FSM.v
+FD:/ModelSim/FSM_011/FSM.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1658611589.000000
+!s107 D:/ModelSim/FSM_011/FSM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/FSM_011/FSM.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@f@s@m_011
+vFSM_011_tb
+!s110 1658611956
+!i10b 1
+!s100 W]`759CeN4zN<@a4Hjac72
+IoKi6lk;UXCM;QU97o15LM0
+R0
+R1
+w1658611947
+8D:/ModelSim/FSM_011/FSM_tb.v
+FD:/ModelSim/FSM_011/FSM_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1658611956.000000
+!s107 D:/ModelSim/FSM_011/FSM_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/FSM_011/FSM_tb.v|
+!i113 1
+R3
+R4
+n@f@s@m_011_tb
