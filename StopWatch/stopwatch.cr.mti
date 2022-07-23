@@ -1,0 +1,15 @@
+D:/ModelSim/StopWatch/stopwatch_tb.v {1 {vlog -work work -stats=none D:/ModelSim/StopWatch/stopwatch_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module stop_tb
+
+Top level modules:
+	stop_tb
+
+} {} {}} D:/ModelSim/StopWatch/stopwatch.v {1 {vlog -work work -stats=none D:/ModelSim/StopWatch/stopwatch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module stopwatch
+
+Top level modules:
+	stopwatch
+
+} {} {}}

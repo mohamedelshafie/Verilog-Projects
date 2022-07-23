@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/ModelSim/counter/counter_tb
+vstop_tb
+!s110 1658608656
+!i10b 1
+!s100 c9a:^Fo:=7=4gkWJz7Fkk3
+Ij3?DZ4YI=5chfA3XLYI9D0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/ModelSim/StopWatch
+w1658608474
+8D:/ModelSim/StopWatch/stopwatch_tb.v
+FD:/ModelSim/StopWatch/stopwatch_tb.v
+L0 2
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1658608656.000000
+!s107 D:/ModelSim/StopWatch/stopwatch_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/StopWatch/stopwatch_tb.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vstopwatch
+!s110 1658607822
+!i10b 1
+!s100 2S?P0Y>Uj8Ce]dSRCPSc>3
+I0>DX4MUK9:8@QQ2CXaVm51
+R0
+R1
+w1658607816
+8D:/ModelSim/StopWatch/stopwatch.v
+FD:/ModelSim/StopWatch/stopwatch.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1658607822.000000
+!s107 D:/ModelSim/StopWatch/stopwatch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/StopWatch/stopwatch.v|
+!i113 1
+R3
+R4
