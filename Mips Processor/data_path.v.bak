@@ -1,0 +1,104 @@
+/*
+* Module: Data Path
+* File Name: data_path.v
+* Description: Contains ALU, register file and program counter. Represents the core of the processor.
+* Author: Mohamed Elshafie
+*/
+module data_path(
+/************************ Input Ports ************************/
+input wire clk,reset,
+input wire [31:0] instr, read_data,
+input wire jump, PC_src, memtoReg, ALU_src, reg_dest, reg_write,
+input wire [2:0] ALU_control,
+
+/************************ Output Ports ************************/
+output wire [31:0] PC, ALU_out, write_data,
+output wire zero
+);
+
+/************************ Internal Variables ************************/
+wire [31:0] PCplus4,PCbranch, outmux1, outmux2, outmux4, outmux5, sign1out, shift2out, RD1;
+wire [27:0] shift1out;
+wire [4:0] outmux3;
+wire [31:0] mux2_in2 = {PCplus4[31:28],shift1out};
+wire [27:0] shift1_in = {2'b00,instr[25:0]};
+
+
+/************************ Code Start ************************/
+mux #(.width(31)) mux1 ( //instantiation of the first mux.
+.in1(PCplus4),
+.in2(PCbranch),
+.sel(PC_src),
+.out(outmux1));
+
+mux #(.width(31)) mux2 ( //instantiation of the second mux.
+.in1(outmux1),
+.in2(mux2_in2),
+.sel(jump),
+.out(outmux2));
+
+mux #(.width(4)) mux3 ( //instantiation of the third mux.
+.in1(instr[20:16]),
+.in2(instr[15:11]),
+.sel(reg_dest),
+.out(outmux3));
+
+mux #(.width(31)) mux4 ( //instantiation of the fourth mux.
+.in1(write_data),
+.in2(sign1out),
+.sel(ALU_src),
+.out(outmux4));
+
+mux #(.width(31)) mux5 ( //instantiation of the fifth mux.
+.in1(ALU_out),
+.in2(read_data),
+.sel(memtoReg),
+.out(outmux5));
+
+adder adder1 ( //instantiation of the first adder.
+.A(PC),
+.B(32'd4),
+.C(PCplus4));
+
+adder adder2 ( //instantiation of the second adder.
+.A(shift2out),
+.B(PCplus4),
+.C(PCbranch));
+
+shift_left #(.width(27)) shift1 ( //instantiation of the first shift left block.
+.in(shift1_in),
+.out(shift1out));
+
+shift_left #(.width(31)) shift2 ( //instantiation of the second shift left block.
+.in(sign1out),
+.out(shift2out));
+
+sign_extend sign1 ( //instantiation of the sign extend block
+.instr(instr[15:0]),
+.signImm(sign1out));
+
+PC PC1 ( //instantiation of the Program Counter block
+.in(outmux2),
+.reset(reset),
+.clk(clk),
+.out(PC));
+
+reg_file register1 ( //instantiation of the register file
+.A1(instr[25:21]),
+.A2(instr[20:16]),
+.A3(outmux3),
+.WD3(outmux5),
+.clk(clk),
+.WE3(reg_write),
+.reset(reset),
+.RD1(RD1),
+.RD2(write_data));
+
+ALU ALU1 ( //instantiation of the ALU
+.srcA(RD1),
+.srcB(outmux4),
+.control(ALU_control),
+.result(ALU_out),
+.zero_flag(zero));
+
+endmodule

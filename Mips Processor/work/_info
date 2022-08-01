@@ -1,0 +1,267 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/ModelSim/traffic light
+vadder
+Z0 !s110 1659380409
+!i10b 1
+!s100 ;A0;eJ5[DX`BXc@2NfNVn2
+IgbgH:Lk=L1dLBoI_Vd>:E0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/ModelSim/Mips Processor
+w1659378472
+8D:/ModelSim/Mips Processor/adder.v
+FD:/ModelSim/Mips Processor/adder.v
+L0 11
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1659380409.000000
+!s107 D:/ModelSim/Mips Processor/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vALU
+R0
+!i10b 1
+!s100 W9_ULm5V8[BJ`W6KPRTY42
+IMme[h@eUV[lo@9ozofd[D0
+R1
+R2
+w1659378869
+8D:/ModelSim/Mips Processor/ALU.v
+FD:/ModelSim/Mips Processor/ALU.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips Processor/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/ALU.v|
+!i113 1
+R5
+R6
+n@a@l@u
+vcontrol_unit
+R0
+!i10b 1
+!s100 ohz<GMfgU?N_I5HZI]ccB1
+Ihjm_<D4jAJ4=f?5RFjVLa3
+R1
+R2
+w1659380023
+8D:/ModelSim/Mips Processor/control_unit.v
+FD:/ModelSim/Mips Processor/control_unit.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips Processor/control_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/control_unit.v|
+!i113 1
+R5
+R6
+vdata_path
+Z7 !s110 1659380410
+!i10b 1
+!s100 j6n:cdWTJWh4X:j[;cM=h3
+IMALK5lim^CnCFmjmP=;Di1
+R1
+R2
+w1659380365
+8D:/ModelSim/Mips Processor/data_path.v
+FD:/ModelSim/Mips Processor/data_path.v
+L0 7
+R3
+r1
+!s85 0
+31
+Z8 !s108 1659380410.000000
+!s107 D:/ModelSim/Mips Processor/data_path.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/data_path.v|
+!i113 1
+R5
+R6
+vMIPS
+R7
+!i10b 1
+!s100 cij3X]e^jcUU=>[2UV6;F3
+IKW050FcCA]oEHJc9;S_c?1
+R1
+R2
+w1659380393
+8D:/ModelSim/Mips Processor/MIPS.v
+FD:/ModelSim/Mips Processor/MIPS.v
+L0 7
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips Processor/MIPS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/MIPS.v|
+!i113 1
+R5
+R6
+n@m@i@p@s
+vmux
+R0
+!i10b 1
+!s100 4eD]^j4U`nOOLNMdWYSV42
+IK3I?bOmBJd3h]18ZJZBYh0
+R1
+R2
+w1659378470
+8D:/ModelSim/Mips Processor/mux.v
+FD:/ModelSim/Mips Processor/mux.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips Processor/mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/mux.v|
+!i113 1
+R5
+R6
+vPC
+R0
+!i10b 1
+!s100 D[bc_EHYe2blVezD>>ZTg2
+IaSN1Uk?;VKEiVIzOK72nW2
+R1
+R2
+w1659379066
+8D:/ModelSim/Mips Processor/PC.v
+FD:/ModelSim/Mips Processor/PC.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips Processor/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/PC.v|
+!i113 1
+R5
+R6
+n@p@c
+vRAM
+R0
+!i10b 1
+!s100 Qd_6mGfOFkST5V3=DYFmL3
+IVLgjO0DMh_LKEEzZBLJ]_3
+R1
+R2
+w1659379571
+8D:/ModelSim/Mips Processor/RAM.v
+FD:/ModelSim/Mips Processor/RAM.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips Processor/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/RAM.v|
+!i113 1
+R5
+R6
+n@r@a@m
+vreg_file
+R0
+!i10b 1
+!s100 Md4>fY;nN[NJ``Fb>?L[31
+IcH_l>JlRGgJCo6P9PoY`H2
+R1
+R2
+w1659379221
+8D:/ModelSim/Mips Processor/reg_file.v
+FD:/ModelSim/Mips Processor/reg_file.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips Processor/reg_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/reg_file.v|
+!i113 1
+R5
+R6
+vROM
+R0
+!i10b 1
+!s100 RU^l8AJa:liS>X2B?oF]33
+IPb:CdQ5BG[N3=Pf4M^]]81
+R1
+R2
+w1659379348
+8D:/ModelSim/Mips Processor/ROM.v
+FD:/ModelSim/Mips Processor/ROM.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips Processor/ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/ROM.v|
+!i113 1
+R5
+R6
+n@r@o@m
+vshift_left
+R0
+!i10b 1
+!s100 gbI@Xn3NV_J:Khf5@jcPC1
+IJL6ILmc:F`zdOKF[g8[:j1
+R1
+R2
+w1659378523
+8D:/ModelSim/Mips Processor/shift_left.v
+FD:/ModelSim/Mips Processor/shift_left.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips Processor/shift_left.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/shift_left.v|
+!i113 1
+R5
+R6
+vsign_extend
+R0
+!i10b 1
+!s100 LPclb]W?2BOJn>=Pf=N1K1
+IlaM8S=Z=WI;DJP7;IEMTz1
+R1
+R2
+w1659378473
+8D:/ModelSim/Mips Processor/Sign_Extend.v
+FD:/ModelSim/Mips Processor/Sign_Extend.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips Processor/Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips Processor/Sign_Extend.v|
+!i113 1
+R5
+R6

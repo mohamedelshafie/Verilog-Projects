@@ -1,0 +1,36 @@
+module reg_file(
+
+input wire [4:0] A1,A2,A3,
+input wire [31:0] WD3,
+input wire clk,WE3,reset,
+
+output reg [31:0] RD1,RD2
+
+);
+
+reg [31:0] register [0:31];
+integer i;
+
+always @ (posedge clk or negedge reset)begin
+
+if(reset == 0)begin
+
+for(i=0;i<32;i=i+1) register[i] = 32'd0;
+
+end
+
+else if(WE3 ==1)begin
+
+register[A3] = WD3;
+
+end
+
+end
+
+always @ (*)fork
+
+RD1 = register[A1];
+RD2 = register[A2];
+
+join
+endmodule

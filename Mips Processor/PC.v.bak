@@ -1,0 +1,25 @@
+/*
+* Module: Program Counter
+* File Name: PC.v
+* Description: copies the sign bit of a short input into all of the upper bits of the longer output.
+* Author: Mohamed Elshafie
+*/
+module PC(
+/************************ Input Ports ************************/
+input wire [31:0] in,
+input wire reset,clk,
+
+/************************ Output Ports ************************/
+output reg [31:0] out
+);
+
+/************************ Code Start ************************/
+always @ (posedge clk or negedge reset)begin
+
+if(!reset)out <= 32'd0;
+else out <= in;
+
+end
+
+endmodule
+
