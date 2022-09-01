@@ -1,0 +1,44 @@
+/*
+* Module: Arithmetic Logic Unit (ALU)
+* File Name: ALU.v
+* Description: combines a variety of mathematical and logical operations into a single unit.
+* Author: Mohamed Elshafie
+*/
+module ALU(
+/************************ Input Ports ************************/
+input wire [31:0] srcA,srcB,
+
+input wire [2:0] control,
+
+/************************ Output Ports ************************/
+output reg [31:0] result
+
+//output reg zero_flag
+
+);
+
+/************************ Code Start ************************/
+always @ (*)begin
+case(control)
+3'b000: result = srcA & srcB; //the rseult is the anding of the two inputs.
+
+3'b001: result = srcA | srcB; //the rseult is the oring of the two inputs.
+
+3'b010: result = srcA + srcB; //the rseult is the summation of the two inputs.
+
+3'b100: result = srcA - srcB; //the rseult is the subtraction of the two inputs.
+
+3'b101: result = srcA * srcB; //the rseult is the multiplication of the two inputs.
+
+3'b110: result = (srcA<srcB)? 32'd1:32'd0; //the rseult is 32 ones if first input is less than the second input.
+
+default: result = 32'd0; //default case is getting 32-bit zero.
+endcase
+
+//if(result == 32'd0) zero_flag = 1; //raising the zero flag if the result is zero
+//else zero_flag = 0;
+
+end
+
+
+endmodule

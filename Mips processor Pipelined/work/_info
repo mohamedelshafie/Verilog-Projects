@@ -1,0 +1,521 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/ModelSim/Mips Processor
+vadder
+Z0 !s110 1661877960
+!i10b 1
+!s100 ;A0;eJ5[DX`BXc@2NfNVn2
+IzIBzKMe3e@mTbDSH9?=gE1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/ModelSim/Mips processor Pipelined
+w1659378472
+8D:/ModelSim/Mips processor Pipelined/adder.v
+FD:/ModelSim/Mips processor Pipelined/adder.v
+L0 11
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1661877960.000000
+!s107 D:/ModelSim/Mips processor Pipelined/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vALU
+Z7 !s110 1661877961
+!i10b 1
+!s100 ^C]Tc]UYYMB4AkEI99fE?1
+IKCYf<ZlaaMFb8V^eF>B8L2
+R1
+R2
+w1661613370
+8D:/ModelSim/Mips processor Pipelined/ALU.v
+FD:/ModelSim/Mips processor Pipelined/ALU.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips processor Pipelined/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/ALU.v|
+!i113 1
+R5
+R6
+n@a@l@u
+vcontrol_unit
+R7
+!i10b 1
+!s100 o2Nd6?]nPoKHll@ShC<II2
+IEg<:B7M6T0CDJXL4R`DMN2
+R1
+R2
+w1661873379
+8D:/ModelSim/Mips processor Pipelined/control_unit.v
+FD:/ModelSim/Mips processor Pipelined/control_unit.v
+L0 7
+R3
+r1
+!s85 0
+31
+Z8 !s108 1661877961.000000
+!s107 D:/ModelSim/Mips processor Pipelined/control_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/control_unit.v|
+!i113 1
+R5
+R6
+vdata_path
+Z9 !s110 1661877962
+!i10b 1
+!s100 I]z19Zh0QkN?V_3ElOKMA1
+I12>Ee@DHFl7^DmCW5kP933
+R1
+R2
+w1661877731
+8D:/ModelSim/Mips processor Pipelined/data_path.v
+FD:/ModelSim/Mips processor Pipelined/data_path.v
+L0 8
+R3
+r1
+!s85 0
+31
+Z10 !s108 1661877962.000000
+!s107 D:/ModelSim/Mips processor Pipelined/data_path.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/data_path.v|
+!i113 1
+R5
+R6
+vdecode_reg_pipe
+R7
+!i10b 1
+!s100 1`P0VONZ4=T3FfIW0a>d]3
+I5ngQKYO`Zl[]HEKoMH`D80
+R1
+R2
+w1661803786
+8D:/ModelSim/Mips processor Pipelined/decode_reg_pipe.v
+FD:/ModelSim/Mips processor Pipelined/decode_reg_pipe.v
+L0 8
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/decode_reg_pipe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/decode_reg_pipe.v|
+!i113 1
+R5
+R6
+vdecode_stage
+R9
+!i10b 1
+!s100 QM@T3A0<`lSz=XTFF49XI3
+IUg5ZX70fc;OE<4FPikcUV3
+R1
+R2
+w1661864523
+8D:/ModelSim/Mips processor Pipelined/decode_stage.v
+FD:/ModelSim/Mips processor Pipelined/decode_stage.v
+L0 8
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/ModelSim/Mips processor Pipelined/decode_stage.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/decode_stage.v|
+!i113 1
+R5
+R6
+vequality_comparator
+!s110 1661804902
+!i10b 1
+!s100 Fg6Y1WA1<Rog1PbB<_SZ?2
+IB]fke_G^2FWJZCMeDOJj=0
+R1
+R2
+w1661685906
+8D:/ModelSim/Mips processor Pipelined/equality_comparator.v
+FD:/ModelSim/Mips processor Pipelined/equality_comparator.v
+L0 8
+R3
+r1
+!s85 0
+31
+!s108 1661804902.000000
+!s107 D:/ModelSim/Mips processor Pipelined/equality_comparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/equality_comparator.v|
+!i113 1
+R5
+R6
+vexecute_reg_pipe
+R7
+!i10b 1
+!s100 kJO7Ab?MdPdXoU=J6^7Mb2
+IQk@WPObX80[ghWS<0LSIj2
+R1
+R2
+w1661767011
+8D:/ModelSim/Mips processor Pipelined/execute_reg_pipe.v
+FD:/ModelSim/Mips processor Pipelined/execute_reg_pipe.v
+L0 8
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/execute_reg_pipe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/execute_reg_pipe.v|
+!i113 1
+R5
+R6
+vexecute_stage
+R9
+!i10b 1
+!s100 =M8nWWm=V]Cg?OYYf<;7O3
+IWDCdZS<ic]:B;he1V4WKc1
+R1
+R2
+w1661723663
+8D:/ModelSim/Mips processor Pipelined/execute_stage.v
+FD:/ModelSim/Mips processor Pipelined/execute_stage.v
+L0 8
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/ModelSim/Mips processor Pipelined/execute_stage.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/execute_stage.v|
+!i113 1
+R5
+R6
+vfetch_stage
+R9
+!i10b 1
+!s100 UP?XfOQQ6J9T[VZ:^CD103
+Ig3jWRR5ZBoN4:TT[24A5R0
+R1
+R2
+w1661688422
+8D:/ModelSim/Mips processor Pipelined/fetch_stage.v
+FD:/ModelSim/Mips processor Pipelined/fetch_stage.v
+L0 8
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/fetch_stage.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/fetch_stage.v|
+!i113 1
+R5
+R6
+vhazard_unit
+R9
+!i10b 1
+!s100 N==beY0XCE=6Fj_`GNRT[0
+IPb`FAWfbj5nFdog[>Fz]33
+R1
+R2
+w1661873338
+8D:/ModelSim/Mips processor Pipelined/hazard_unit.v
+FD:/ModelSim/Mips processor Pipelined/hazard_unit.v
+L0 8
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/ModelSim/Mips processor Pipelined/hazard_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/hazard_unit.v|
+!i113 1
+R5
+R6
+vmemory_reg_pipe
+R7
+!i10b 1
+!s100 I`KCDITTUFSYhC2S;1o790
+IV`JPCj2KRX]AK3]InFd7N2
+R1
+R2
+w1661634901
+8D:/ModelSim/Mips processor Pipelined/memory_reg_pipe.v
+FD:/ModelSim/Mips processor Pipelined/memory_reg_pipe.v
+L0 8
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/memory_reg_pipe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/memory_reg_pipe.v|
+!i113 1
+R5
+R6
+vmemory_stage
+R9
+!i10b 1
+!s100 m7FhAI>aIGFTB<E<ZDgJK3
+IYCE[93?M3]E1d:RAzG@0W2
+R1
+R2
+w1661769168
+8D:/ModelSim/Mips processor Pipelined/memory_stage.v
+FD:/ModelSim/Mips processor Pipelined/memory_stage.v
+L0 8
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/ModelSim/Mips processor Pipelined/memory_stage.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/memory_stage.v|
+!i113 1
+R5
+R6
+vMIPS_Pipe
+R9
+!i10b 1
+!s100 T_`_jFjIVlQKZ<DAHXJRn2
+ID8`>MnAZfF`95@]`mdSWi1
+R1
+R2
+w1661877768
+8D:/ModelSim/Mips processor Pipelined/MIPS_Pipe.v
+FD:/ModelSim/Mips processor Pipelined/MIPS_Pipe.v
+L0 9
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/ModelSim/Mips processor Pipelined/MIPS_Pipe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/MIPS_Pipe.v|
+!i113 1
+R5
+R6
+n@m@i@p@s_@pipe
+vmux
+R7
+!i10b 1
+!s100 4eD]^j4U`nOOLNMdWYSV42
+I2F]]^XFYg?5R0cTXQJfLU1
+R1
+R2
+w1659378470
+8D:/ModelSim/Mips processor Pipelined/mux.v
+FD:/ModelSim/Mips processor Pipelined/mux.v
+L0 7
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/mux.v|
+!i113 1
+R5
+R6
+vmux4x1
+R0
+!i10b 1
+!s100 @:9Qb8@Bz[g_YaYladZ_X2
+IeHS^A^oeY?1=;nHPkeIkI1
+R1
+R2
+w1660944181
+8D:/ModelSim/Mips processor Pipelined/mux4x1.v
+FD:/ModelSim/Mips processor Pipelined/mux4x1.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips processor Pipelined/mux4x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/mux4x1.v|
+!i113 1
+R5
+R6
+vPC
+R7
+!i10b 1
+!s100 PYce]BJK7BA]>[eb@<d5E2
+IB:UN;eZk7HC@bYbUc>0Z>3
+R1
+R2
+w1661767284
+8D:/ModelSim/Mips processor Pipelined/PC.v
+FD:/ModelSim/Mips processor Pipelined/PC.v
+L0 7
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/PC.v|
+!i113 1
+R5
+R6
+n@p@c
+vRAM
+R7
+!i10b 1
+!s100 mJ8J5k1<h_jo`7;lCmMjK0
+Ijj?QS`=GO?MS7A9Qc;d7C0
+R1
+R2
+w1661872597
+8D:/ModelSim/Mips processor Pipelined/RAM.v
+FD:/ModelSim/Mips processor Pipelined/RAM.v
+L0 7
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/RAM.v|
+!i113 1
+R5
+R6
+n@r@a@m
+vreg_file
+R7
+!i10b 1
+!s100 l4GS;hfFnmUVKh2AF7G]D1
+I:mOU11Y]AK5zHhDPHbU1]1
+R1
+R2
+w1661803262
+8D:/ModelSim/Mips processor Pipelined/reg_file.v
+FD:/ModelSim/Mips processor Pipelined/reg_file.v
+L0 7
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/reg_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/reg_file.v|
+!i113 1
+R5
+R6
+vROM
+R7
+!i10b 1
+!s100 bIdkY53CiU^CScF5IW36a1
+I^<XPzN@:Yo0EaI7YDWGhM0
+R1
+R2
+w1661872584
+8D:/ModelSim/Mips processor Pipelined/ROM.v
+FD:/ModelSim/Mips processor Pipelined/ROM.v
+L0 7
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/ROM.v|
+!i113 1
+R5
+R6
+n@r@o@m
+vshift_left
+R7
+!i10b 1
+!s100 gbI@Xn3NV_J:Khf5@jcPC1
+IF_N`3`CCh8Y`6:9=`:`cR2
+R1
+R2
+w1659378523
+8D:/ModelSim/Mips processor Pipelined/shift_left.v
+FD:/ModelSim/Mips processor Pipelined/shift_left.v
+L0 7
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/shift_left.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/shift_left.v|
+!i113 1
+R5
+R6
+vsign_extend
+R0
+!i10b 1
+!s100 LPclb]W?2BOJn>=Pf=N1K1
+I^O?W3^?Qgc<<Sa@:^6n_83
+R1
+R2
+w1659378473
+8D:/ModelSim/Mips processor Pipelined/Sign_Extend.v
+FD:/ModelSim/Mips processor Pipelined/Sign_Extend.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ModelSim/Mips processor Pipelined/Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/Sign_Extend.v|
+!i113 1
+R5
+R6
+vwriteBack_reg_pipe
+R7
+!i10b 1
+!s100 kh<Qk7zNI0b^@_[`0k:XC3
+Iaf6joLi5bi8`510nJ?0hE0
+R1
+R2
+w1661718030
+8D:/ModelSim/Mips processor Pipelined/writeBack_reg_pipe.v
+FD:/ModelSim/Mips processor Pipelined/writeBack_reg_pipe.v
+L0 7
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/ModelSim/Mips processor Pipelined/writeBack_reg_pipe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/writeBack_reg_pipe.v|
+!i113 1
+R5
+R6
+nwrite@back_reg_pipe
+vwriteBack_stage
+R9
+!i10b 1
+!s100 _jNlB99l_mQW9RMa8AP?K2
+Im<H<CLLGaF^[HeBT>oNc?2
+R1
+R2
+w1661723750
+8D:/ModelSim/Mips processor Pipelined/writeBack_stage.v
+FD:/ModelSim/Mips processor Pipelined/writeBack_stage.v
+L0 8
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/ModelSim/Mips processor Pipelined/writeBack_stage.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ModelSim/Mips processor Pipelined/writeBack_stage.v|
+!i113 1
+R5
+R6
+nwrite@back_stage

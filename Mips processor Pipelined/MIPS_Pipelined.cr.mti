@@ -1,0 +1,162 @@
+{D:/ModelSim/Mips processor Pipelined/reg_file.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/reg_file.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/execute_reg_pipe.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/execute_reg_pipe.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module execute_reg_pipe
+
+Top level modules:
+	execute_reg_pipe
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/data_path.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/data_path.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module data_path
+
+Top level modules:
+	data_path
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/MIPS_Pipe.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/MIPS_Pipe.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MIPS_Pipe
+
+Top level modules:
+	MIPS_Pipe
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/ROM.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/ROM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ROM
+
+Top level modules:
+	ROM
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/writeBack_reg_pipe.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/writeBack_reg_pipe.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module writeBack_reg_pipe
+
+Top level modules:
+	writeBack_reg_pipe
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/writeBack_stage.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/writeBack_stage.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module writeBack_stage
+
+Top level modules:
+	writeBack_stage
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/control_unit.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/control_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/RAM.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/RAM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/shift_left.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/shift_left.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shift_left
+
+Top level modules:
+	shift_left
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/Sign_Extend.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/Sign_Extend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/adder.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/hazard_unit.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/hazard_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hazard_unit
+
+Top level modules:
+	hazard_unit
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/memory_stage.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/memory_stage.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module memory_stage
+
+Top level modules:
+	memory_stage
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/fetch_stage.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/fetch_stage.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fetch_stage
+
+Top level modules:
+	fetch_stage
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/execute_stage.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/execute_stage.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module execute_stage
+
+Top level modules:
+	execute_stage
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/decode_reg_pipe.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/decode_reg_pipe.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decode_reg_pipe
+
+Top level modules:
+	decode_reg_pipe
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/mux4x1.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/mux4x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4x1
+
+Top level modules:
+	mux4x1
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/decode_stage.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/decode_stage.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decode_stage
+
+Top level modules:
+	decode_stage
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/ALU.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/mux.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/PC.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/PC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {D:/ModelSim/Mips processor Pipelined/memory_reg_pipe.v} {1 {vlog -work work -stats=none {D:/ModelSim/Mips processor Pipelined/memory_reg_pipe.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module memory_reg_pipe
+
+Top level modules:
+	memory_reg_pipe
+
+} {} {}}
